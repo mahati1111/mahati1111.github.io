@@ -1,0 +1,217 @@
+body{
+  background-color: white;
+}
+.navbar{
+  font-family: Lobster;
+}
+.navbar{ 
+  background-color: #b00 ;
+}
+ /* Email subscription section styling */
+.email-signup {
+text-align: center;
+padding: 30px 0;
+}
+
+.email-signup input[type="email"] {
+border-radius: 50px;
+padding: 10px 20px;
+width: 250px;
+border: none;
+}
+
+.email-signup button {
+border-radius: 50px;
+padding: 10px 20px;
+border: 2px solid white;
+background-color: #a40000;
+color: white;
+font-weight: bold;
+}
+
+.email-signup p {
+font-size: 12px;
+margin-top: 10px;
+color: #f1f1f1;
+}
+.footer {
+  background-color: #b00;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+.footer h5, .footer p, .footer a {
+  color: #fff;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .footer-social-icons a {
+  color: #fff;
+  margin-right: 0.5rem;
+}
+.footer-bottom {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+.footer-bottom a {
+  color: #fff;
+}
+            /* CSS for active button */
+.btn-outline-secondary.active {
+background-color: lightgrey;
+color: black;
+border-color: lightgrey;
+}
+/* Card styling */
+.card-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+.tip-card {
+width: 100%;
+max-width: 400px;
+border: none;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+overflow: hidden;
+}
+.tip-card:hover {
+transform: translateY(-10px);
+}
+.tip-card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+.tip-card-title {
+font-weight: bold;
+padding: 10px;
+background-color: #f8f9fa;
+text-align: center;
+}
+.must-try-recipe-section h2 {
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.card {
+border: none;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.card-img-top {
+height: 200px;
+object-fit: cover;
+}
+
+/* CSS for active button for courses page*/
+.btn-outline-secondary.active {
+  background-color: rgb(206, 219, 255);
+  color: black;
+  border-color: rgb(118, 118, 118);
+}
+
+    /* Center the form and add box-shadow for form page */
+    .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Heading alignment */
+    .form-title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    /* Register button styling */
+    .btn-register {
+      background-color: #28a745;
+      color: #ffffff;
+    }
+
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  padding: 2%;
+  align-content: center;
+}
+.italy{
+    margin: 0%;
+    width: 20%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(216, 215, 255);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+        /* Custom styling for the content */
+        .content-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            margin: 20px;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .text-section {
+            padding-left: 20px; /* Adds space between image and text */
+        }
+
+        .text-section h2 {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .text-section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Responsive styling */
+        @media (min-width: 768px) {
+            .content-box {
+                flex-direction: row;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .content-box {
+                flex-direction: column;
+            }
+            .text-section {
+                padding-left: 0; /* Removes extra padding on smaller screens */
+                margin-top: 15px; /* Adds spacing above text when stacked */
+            }
+        }
