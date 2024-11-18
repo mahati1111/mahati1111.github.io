@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Bite Bliss Footer</title>
+          <link href="">
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+          <style>
+            
+            .navbar{ 
+              background-color: #b00 ;
+            }
+             /* Email subscription section styling */
+        .email-signup {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .email-signup input[type="email"] {
+            border-radius: 50px;
+            padding: 10px 20px;
+            width: 250px;
+            border: none;
+        }
+
+        .email-signup button {
+            border-radius: 50px;
+            padding: 10px 20px;
+            border: 2px solid white;
+            background-color: #a40000;
+            color: white;
+            font-weight: bold;
+        }
+
+        .email-signup p {
+            font-size: 12px;
+            margin-top: 10px;
+            color: #f1f1f1;
+        }
+            .footer {
+              background-color: #b00;
+              color: #fff;
+              padding: 2rem 1rem;
+            }
+            .footer h5, .footer p, .footer a {
+              color: #fff;
+            }
+            .footer a:hover {
+              text-decoration: underline;
+            }
+            .footer .footer-social-icons a {
+              color: #fff;
+              margin-right: 0.5rem;
+            }
+            .footer-bottom {
+              font-size: 0.9rem;
+              padding-top: 1rem;
+              border-top: 1px solid rgba(255, 255, 255, 0.3);
+              text-align: center;
+            }
+            .footer-bottom a {
+              color: #fff;
+            }
+                        /* CSS for active button */
+.btn-outline-secondary.active {
+  background-color: lightgrey;
+  color: black;
+  border-color: lightgrey;
+}
+    /* Card styling */
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .tip-card {
+      width: 100%;
+      max-width: 400px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      overflow: hidden;
+    }
+    .tip-card:hover {
+      transform: translateY(-10px);
+    }
+    .tip-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .tip-card-title {
+      font-weight: bold;
+      padding: 10px;
+      background-color: #f8f9fa;
+      text-align: center;
+    }
+    .must-try-recipe-section h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+          </style>
+        </head>
+        <body>
+
+          <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container">
+      <a class="navbar-brand" href="#"><b><h2>Bite Bliss</h2></b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutcss.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contactcss.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-item"><img src="images/user.png" height="38px"></li>
+      </div>
+    </div>
+  </nav>
+
+ <!-- Search and Tag Section -->
+ <section class="search-section py-3">
+  <div class="container text-center">
+    <input type="text" class="form-control search-bar" placeholder="Search">
+    <div class="tags mt-3">
+      <a href="recipecss.html" class="btn btn-outline-secondary">Recipe</a>
+      <a href="coursescss.html" class="btn btn-outline-secondary">Courses</a>
+      <a href="ingredientscss.html" class="btn btn-outline-secondary">Ingredients</a>
+      <a href="Cheftips.html" class="btn btn-outline-secondary">Chef Tips</a>
+      <a href="explorecss.html" class="btn btn-outline-secondary">Explore</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Carousel Section -->
+  <section class="carousel-section">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          
+          <img src="images/flavours (1).png" class="d-block w-100" alt="Flavours">
+        </div>
+        <div class="carousel-item active">
+          
+            <img src="images/cook (1).png" class="d-block w-100" alt="Flavours">
+          </div>
+        <div class="carousel-item active">
+    
+            <img src="images/taste (1).png" class="d-block w-100" alt="Flavours">
+        </div>
+        <!-- Add more carousel items here if needed -->
+      </div>
+    </div>
+  </section><br>
+
+  <!-- Must Try Recipe Section -->
+<section class="must-try-recipe-section py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Must Try Recipe of the Week</h2>
+    <div class="row justify-content-center">
+      <!-- Recipe Card 1 -->
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card">
+          <img src="images/pieIMG.jpg" class="card-img-top" alt="Pancakes">
+          <div class="card-body">
+            <h5 class="card-title">Fluffy Pancakes</h5>
+          </div>
+        </div>
+      </div>
+      <!-- Recipe Card 2 -->
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card">
+          <img src="images/dumplings.jpg" class="card-img-top" alt="Dumplings">
+          <div class="card-body">
+            <h5 class="card-title">Dumplings</h5>
+          </div>
+        </div>
+      </div>
+      <!-- Recipe Card 3 -->
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card">
+          <img src="images/eggIMG.png" class="card-img-top" alt="Fresh Salad">
+          <div class="card-body">
+            <h5 class="card-title">Fresh Salad</h5>
+          </div>
+        </div>
+      </div>
+      <!-- Recipe Card 4 -->
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card">
+          <img src="images/noodles.jpg" class="card-img-top" alt="Spaghetti Bolognese">
+          <div class="card-body">
+            <h5 class="card-title">Spaghetti Bolognese</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Tips Cards Section -->
+  <h2 class="mb-4" style="align-items: center;padding-left: 40%;"><b>Secrets of the stove</b></h2>
+<div class="container card-container">
+  <!-- Card 1 -->
+  <div class="card tip-card">
+    <img src="images/Group 185.jpg" alt="Master the art of seasoning">
+    <div class="tip-card-title">Master the Art of Seasoning</div>
+  </div>
+  
+  <!-- Card 2 -->
+  <div class="card tip-card">
+    <img src="images/Group 186.jpg" alt="Time-Saving Tricks">
+    <div class="tip-card-title">Time-Saving Tricks</div>
+  </div>
+</div>
+<br>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- Newsletter Section -->
+      <div class="col-md-4">
+        <h1>Bite Bliss</h1>
+        <br>
+        <p>Simple tools for a healthier life delivered straight to your inbox every week.</p>
+        <form class="d-flex mb-3">
+          <input type="email" class="form-control me-2" placeholder="Enter email address" required>
+          <button type="submit" class="btn btn-light">Sign Up</button>
+        </form>
+        <small>By signing up, you agree to our <a href="#">privacy policy</a> and <a href="#">terms.</a></small><br><br>
+      </div>
+      <br><br>
+
+      <!-- Links Section in Flex Format -->
+      <div class="col-md-8">
+        <div class="d-flex justify-content-between">
+          <!-- Home Links -->
+          <div>
+            <h5>Home</h5>
+            <ul class="list-unstyled">
+              <li><a href="#"  style="text-decoration: none;">Cheftips</a></li>
+            </ul>
+          </div>
+
+          <!-- About Links -->
+          <div>
+            <h5>About</h5>
+            <ul class="list-unstyled">
+              <li><a href="#"  style="text-decoration: none;">History</a></li>
+              <li><a href="#"  style="text-decoration: none;">Story Behind Bite Bliss</a></li>
+            </ul>
+          </div>
+
+           <!-- Contact Links -->
+           <div>
+            <h5>Contact</h5>
+            <ul class="text-decoration-none list-unstyled">
+              <li><a href="#"  style="text-decoration: none;">Contact Us</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p>© All rights reserved</p>
+      <a href="#">Privacy and Cookie Policy</a> | <a href="#">Terms & Conditions</a>
+    </div>
+  </div>
+</footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"></script>
+      </body>
+      </html>
+
+

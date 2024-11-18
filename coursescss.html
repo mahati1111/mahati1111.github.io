@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Bite Bliss Footer</title>
+          <link href="">
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+          <style>
+            .navbar{ 
+              background-color: #b00 ;
+            }
+            .footer {
+              background-color: #b00;
+              color: #fff;
+              padding: 2rem 1rem;
+            }
+            .footer h5, .footer p, .footer a {
+              color: #fff;
+            }
+            .footer a:hover {
+              text-decoration: underline;
+            }
+            .footer .footer-social-icons a {
+              color: #fff;
+              margin-right: 0.5rem;
+            }
+            .footer-bottom {
+              font-size: 0.9rem;
+              padding-top: 1rem;
+              border-top: 1px solid rgba(255, 255, 255, 0.3);
+              text-align: center;
+            }
+            .footer-bottom a {
+              color: #fff;
+            }
+            /* CSS for active button */
+            .btn-outline-secondary.active {
+  background-color: rgb(206, 219, 255);
+  color: black;
+  border-color: rgb(118, 118, 118);
+}
+          </style>
+        </head>
+        <body>
+
+          <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container">
+      <a class="navbar-brand" href="#"><b>Bite Bliss</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutcss.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contactcss.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="nav-item"><img src="images/user.png" height="38px"></li>
+    </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Search and Tag Section -->
+  <section class="search-section py-3">
+    <div class="container text-center">
+      <input type="text" class="form-control search-bar" placeholder="Search">
+      <div class="tags mt-3">
+        <a href="recipecss.html" class="btn btn-outline-secondary">Recipe</a>
+        <a href="coursescss.html" class="btn btn-outline-secondary active">Courses</a>
+        <a href="ingredientscss.html" class="btn btn-outline-secondary">Ingredients</a>
+        <a href="cheftipscss.html" class="btn btn-outline-secondary">Chef Tips</a>
+        <a href="explorecss.html" class="btn btn-outline-secondary">Explore</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Food Courses Section -->
+  <section class="courses-section py-5">
+    <div class="container text-center">
+      <h2 class="mb-5">Food Courses</h2>
+      <div class="row">
+
+        <!-- Beginner Level Card -->
+        <div class="col-md-4" style="margin-bottom: 2%;">
+          <div class="card course-card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title course-level">Beginner Level</h5>
+              <p class="card-text">Learn the basics of cooking, perfect for those starting their culinary journey.</p>
+              <a href="formcss.html" class="btn" style="background-color: rgb(2, 177, 28);color: white;font-weight:500;">Register Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Intermediate Level Card -->
+        <div class="col-md-4" style="margin-bottom: 2%;">
+          <div class="card course-card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title course-level">Intermediate Level</h5>
+              <p class="card-text">Enhance your skills with more complex recipes and cooking techniques.</p>
+              <a href="formcss.html" class="btn" style="background-color: rgb(2, 177, 28);color: white;font-weight:500;">Register Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Advanced Level Card -->
+        <div class="col-md-4" style="margin-bottom: 2%;">
+          <div class="card course-card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title course-level">Advanced Level</h5>
+              <p class="card-text">Master the art of cooking with advanced skills for culinary enthusiasts.</p>
+              <a href="formcss.html" class="btn" style="background-color: rgb(2, 177, 28);color: white;font-weight:500;">Register Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Newsletter Section -->
+        <div class="col-md-4">
+          <h1>Bite Bliss</h1>
+          <br>
+          <p>Simple tools for a healthier life delivered straight to your inbox every week.</p>
+          <form class="d-flex mb-3">
+            <input type="email" class="form-control me-2" placeholder="Enter email address" required>
+            <button type="submit" class="btn btn-light">Sign Up</button>
+          </form>
+          <small>By signing up, you agree to our <a href="#">privacy policy</a> and <a href="#">terms.</a></small><br><br>
+        </div>
+        <br><br>
+  
+        <!-- Links Section in Flex Format -->
+        <div class="col-md-8">
+          <div class="d-flex justify-content-between">
+            <!-- Home Links -->
+            <div>
+              <h5>Home</h5>
+              <ul class="list-unstyled">
+                <li><a href="cssfood.html" style="text-decoration: none;">Chef tips</a></li>
+              </ul>
+            </div>
+  
+            <!-- About Links -->
+            <div>
+              <h5>About</h5>
+              <ul class="list-unstyled">
+                <li><a href="aboutcss.html" style="text-decoration: none;">History</a></li>
+                <li><a href="aboutcss.html" style="text-decoration: none;">Story Behind Bite Bliss</a></li>
+              </ul>
+            </div>
+
+             <!-- Contact Links -->
+             <div>
+              <h5>Contact</h5>
+              <ul class="text-decoration-none list-unstyled">
+                <li><a href="Contactcss.html" style="text-decoration: none;">Contact Us</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <br><br>
+  
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>© All rights reserved</p>
+        <a href="#">Privacy and Cookie Policy</a> | <a href="#">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+  
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"></script>
+        </body>
+        </html>            

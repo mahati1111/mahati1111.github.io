@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italy - Culinary Heritage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+ .navbar{ 
+              background-color: #b00 ;
+            }
+            .footer {
+              background-color: #b00;
+              color: #fff;
+              padding: 2rem 1rem;
+            }
+            .footer h5, .footer p, .footer a {
+              color: #fff;
+            }
+            .footer a:hover {
+              text-decoration: underline;
+            }
+            .footer .footer-social-icons a {
+              color: #fff;
+              margin-right: 0.5rem;
+            }
+            .footer-bottom {
+              font-size: 0.9rem;
+              padding-top: 1rem;
+              border-top: 1px solid rgba(255, 255, 255, 0.3);
+              text-align: center;
+            }
+            .footer-bottom a {
+              color: #fff;
+            }
+                        /* CSS for active button */
+.btn-outline-secondary.active {
+  background-color: rgb(206, 219, 255);
+  color: black;
+  border-color: rgb(118, 118, 118);
+}
+
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  padding: 2%;
+  align-content: center;
+}
+.italy{
+    margin: 0%;
+    width: 20%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(216, 215, 255);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+        /* Custom styling for the content */
+        .content-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            margin: 20px;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .text-section {
+            padding-left: 20px; /* Adds space between image and text */
+        }
+
+        .text-section h2 {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .text-section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Responsive styling */
+        @media (min-width: 768px) {
+            .content-box {
+                flex-direction: row;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .content-box {
+                flex-direction: column;
+            }
+            .text-section {
+                padding-left: 0; /* Removes extra padding on smaller screens */
+                margin-top: 15px; /* Adds spacing above text when stacked */
+            }
+        }
+    </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container">
+      <a class="navbar-brand" href="#"><b><h2>Bite Bliss</h2></b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutcss.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contactcss.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="nav-item"><img src="images/user.png" height="38px"></li>
+    </div>
+      </div>
+    </div>
+  </nav>
+
+ <!-- Search and Tag Section -->
+ <section class="search-section py-3">
+  <div class="container text-center">
+    <input type="text" class="form-control search-bar" placeholder="Search">
+    <div class="tags mt-3">
+      <a href="recipecss.html" class="btn btn-outline-secondary">Recipe</a>
+      <a href="coursescss.html" class="btn btn-outline-secondary">Courses</a>
+      <a href="ingredientscss.html" class="btn btn-outline-secondary">Ingredients</a>
+      <a href="Cheftips.html" class="btn btn-outline-secondary">Chef Tips</a>
+      <a href="explorecss.html" class="btn btn-outline-secondary active">Explore</a>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+    <div class="content-box">
+        <!-- Image Section -->
+        <div class="image-section col-md-6">
+            <img src="images/italy.jpg" alt="Italy Landscape">
+        </div>
+
+        <!-- Text Section -->
+        <div class="text-section col-md-6">
+            <h2 style="font-style: normal;">Italy</h2>
+            <p>Italy is renowned worldwide for its rich culinary heritage, where food is not just nourishment but a celebration of culture, tradition, and community. Italian cuisine is deeply rooted in local, fresh ingredients, simplicity, and regional diversity, making it one of the most beloved cuisines globally.</p>
+        </div>
+    </div>
+</div>
+
+<section>
+    <div class="card">
+        <img src="images/Pasta.jpg" alt="Avatar" style="width:100%">
+      </div>
+</section>
+
+<section>
+    <div class="card">
+        <img src="images/Cannelloni (1).jpg" alt="Avatar" style="width:100%">
+      </div>
+</section>
+
+<section>
+    <div class="card">
+        <img src="images/Garlic bread.jpg" alt="Avatar" style="width:100%">
+      </div>
+</section>
+
+<section>
+    <div class="card">
+        <img src="images/Osso Buco.jpg" alt="Avatar" style="width:100%">
+      </div>
+</section>
+
+<section>
+    <div class="card">
+        <img src="images/Panna Cotta.jpg" alt="Avatar" style="width:100%">
+      </div>
+</section>
+
+<section>
+    <div class="card">
+        <img src="images/Cannoli (1).jpg" alt="Avatar" style="width:100%">
+      </div>
+</section>
+
+<section>
+    <div class="card">
+        <img src="images/Tiramisu.jpg" alt="Avatar" style="width:100%">
+      </div>
+</section>
+
+<section>
+    <div class="card">
+        <img src="images/Gelato.jpg" alt="Avatar" style="width:100%">
+      </div>
+</section>
+
+
+
+
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Newsletter Section -->
+        <div class="col-md-4">
+          <h1>Bite Bliss</h1>
+          <br>
+          <p>Simple tools for a healthier life delivered straight to your inbox every week.</p>
+          <form class="d-flex mb-3">
+            <input type="email" class="form-control me-2" placeholder="Enter email address" required>
+            <button type="submit" class="btn btn-light">Sign Up</button>
+          </form>
+          <small>By signing up, you agree to our <a href="#">privacy policy</a> and <a href="#">terms.</a></small><br><br>
+        </div>
+        <br><br>
+  
+        <!-- Links Section in Flex Format -->
+        <div class="col-md-8">
+          <div class="d-flex justify-content-between">
+            <!-- Home Links -->
+            <div>
+              <h5>Home</h5>
+              <ul class="list-unstyled">
+                <li><a href="cssfood.html" style="text-decoration: none;">Chef tips</a></li>
+              </ul>
+            </div>
+  
+            <!-- About Links -->
+            <div>
+              <h5>About</h5>
+              <ul class="list-unstyled">
+                <li><a href="aboutcss.html" style="text-decoration: none;">History</a></li>
+                <li><a href="aboutcss.html" style="text-decoration: none;">Story Behind Bite Bliss</a></li>
+              </ul>
+            </div>
+
+             <!-- Contact Links -->
+             <div>
+              <h5>Contact</h5>
+              <ul class="text-decoration-none list-unstyled">
+                <li><a href="Contactcss.html" style="text-decoration: none;">Contact Us</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <br><br>
+  
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>© All rights reserved</p>
+        <a href="#">Privacy and Cookie Policy</a> | <a href="#">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+  
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"></script>
+        </body>
+        </html>            
